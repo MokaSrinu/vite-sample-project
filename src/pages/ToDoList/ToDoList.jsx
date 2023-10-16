@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import classes from './ToDoList.module.scss';
 
 const ToDoList = () => {
   return (
-    <div>ToDoList</div>
+    <div className={classes.ToDoListPage}>
+        ToDoList
+    </div>
   )
 }
 
-export default ToDoList
+export default ToDoList;
