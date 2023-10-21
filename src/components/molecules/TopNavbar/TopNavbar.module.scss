@@ -1,0 +1,24 @@
+.TopNavbar{
+    background-color: dodgerblue;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .Title{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .NavigationWrap{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color:white;
+        .Link{
+            color: white;
+            cursor: pointer;
+            &:hover{
+                text-decoration:underline;
+            }
+        }
+    }
+}
